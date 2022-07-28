@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+.navbar li {
+  float: right;
+}
+.navbar li:hover {
+  transform: scale(1.2);
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  background-color: white;
+}
+.navbar li a:hover {
+  background-color: #0938e3;
+}
+
+.pie {
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+}
+
+.colorfondo {
+  background-color: rgb(200, 188, 15);
+}
+
+.titulo {
+  text-decoration: none;
+  text-align: center;
+  color: navy;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: none;
+}
+
+.marcas {
+  text-decoration: none;
+  text-align: center;
+  color: navy;
+}
+
+.imagenes {
+  display: flex;
+  padding: 2px;
+  margin: 22px;
+}
+
+.imagenes img {
+  margin-left: 50px;
+}
+
+.fondocaja {
+  background-image: url(https://previews.123rf.com/images/grafner/grafner1502/grafner150200114/36864489-textura-de-madera-r%C3%BAstica.jpg);
+}
+
+.sufro {
+  text-transform: uppercase;
+  padding: 2px;
+  border: 4px solid rgb(1, 1, 13);
+  color: white;
+  background-color: darkslategray;
+}
+
+.lavivo {
+  text-transform: uppercase;
+  padding: 2px;
+  border: 4px solid rgb(1, 1, 13);
+  color: white;
+  background-color: darkslategray;
+}
+
+.desciption {
+  height: 25px;
+  overflow: hidden;
+  filter: grayscale(1);
+  transition: height 0.3s ease-in 0.3s;
+}
+
+.desciption:hover {
+  height: 80px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.oferta {
+  color: white;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 30ch;
+  -webkit-animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+          animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.pagos-anim {
+  color: white;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 24ch;
+  -webkit-animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+          animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.social {
+  position: fixed;
+  left: 0;
+  top: px;
+  z-index: 2000;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social ul li a {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+
+.social ul li .bi-facebook {
+  background: #3b5998;
+}
+
+.social ul li .icon-twitter {
+  background: #00abf0;
+}
+
+.social ul li .icon-pinterest {
+  background: #ae181f;
+}
+
+.social ul li a:hover {
+  padding: 10px 30px;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.fondocontacto {
+  background-color: gold;
+}/*# sourceMappingURL=stylos.css.map */

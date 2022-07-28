@@ -1,0 +1,57 @@
+
+
+@use "../scss/componentes/navbar" ;//barra nav 
+@use "./componentes/titulo.scss"; //titulo 
+@use "./componentes/imagenes.scss"; //imagenes
+@use "./componentes/texto";
+@use "./componentes/animaciones";
+@use "./componentes/social";
+
+body{
+  margin: 0;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+$colores:(top
+'primary': rgb(26, 11, 107),
+'secundario': rgb(36, 36, 36),
+
+);
+
+
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.fondocontacto{
+  background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

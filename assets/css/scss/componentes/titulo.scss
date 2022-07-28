@@ -1,0 +1,25 @@
+$ninguno: none;
+$position:center;
+$colorprincipal: tomato;
+
+
+@mixin titulos {
+    text-decoration: $ninguno;
+    text-align: $position;
+    color: navy;
+}
+
+.titulo{
+
+
+    @include titulos;
+    
+}
+h2{
+    text-align: $position;
+    text-decoration: $ninguno;
+}
+.marcas {
+    
+    @include titulos;
+}

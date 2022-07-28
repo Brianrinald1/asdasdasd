@@ -1,0 +1,55 @@
+$colorletras: #0e0101f3;
+$tipoletras: "Courier New", Courier, monospace;
+$mensaje: "hola a todos";
+$colorfondo:rgb(0, 0, 0);
+$coloralpaso:#0938e3;
+$pocicioncentral:center;
+
+body{
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+
+
+.navbar {
+    display: flex;
+    ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: white;
+     }
+
+  li {
+ float: right;
+     }
+  li:hover {
+ transform: scale(1.2);
+ }
+
+ li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ text-decoration: none;
+ background-color: white;
+ }
+
+ li a:hover {
+ background-color: $coloralpaso;
+  }
+}
+.pie{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}
+
+.colorfondo{
+    background-color: rgb(200, 188, 15);
+  }
+
+  

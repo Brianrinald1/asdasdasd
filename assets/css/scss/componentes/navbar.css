@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+.navbar li {
+  float: right;
+}
+.navbar li:hover {
+  transform: scale(1.2);
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  background-color: white;
+}
+.navbar li a:hover {
+  background-color: #0938e3;
+}
+
+.pie {
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+}
+
+.colorfondo {
+  background-color: rgb(200, 188, 15);
+}/*# sourceMappingURL=navbar.css.map */
